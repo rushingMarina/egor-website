@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!--required meta tags -->
+	<meta charset="utf-8">
+	
+	<meta name="description" content="Photo Video Art">
+	<meta name="keywords" content="website, art, photography">
+	
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewpoint" content="width-device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- title -->
+	<title>Egor Barkanov</title>
+
+	<!-- favicon -->
+	<link rel="shortcut icon" href="IMG/Imil-Sea-Palm-island.ico">
+
+	<!-- google font -->
+	<!-- has to be added before style CSS-->
+	<link href="https://fonts.googleapis.com/css?family=Bangers|Roboto:400,700&display=swap" rel="stylesheet">
+
+	<!-- font awesome -->
+	<link rel="stylesheet" href="CSS/font-awesome/css/font-awesome.min.css">
+
+	<!-- bootstrap CSS (put before CSS) -->
+	<link rel="stylesheet" href="CSS/bootstrap/bootstrap.min.css">
+
+	<!-- animate CSS -->
+	<link rel="stylesheet" href="CSS/animate/animate.css">
+
+	<!-- magnific-popup CSS -->
+	<link rel="stylesheet" href="CSS/magnific-popup/magnific-popup.css">
+
+	<!-- owl carousel CSS -->
+	<link rel="stylesheet" href="CSS/owl-carousel/owl.carousel.min.css">
+	<link rel="stylesheet" href="CSS/owl-carousel/owl.theme.default.css">
+
+	
+	<!--responsive CSS-->
+	<link rel="stylesheet" href="CSS/resposive.css">
+	
+	<!-- style CSS -->
+	<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body data-spy="scroll" data-target=".navbar-fixed-top" data-offset="170">
+	
+	<!--CSS Loader-->
+	<div class="loader-wrapper">
+	<div class="loader"></div>
+	</div>
+	
+	<!-- NAVBAR -->
+	<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<div class="topnav" id="myTopnav">
+	  <a href="#news">Photo</a>
+	  <a href="#contact">Film</a>
+	  <a href="#about">Info</a>
+	  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+		<i class="fa fa-bars"></i>
+	  </a>
+	</div>
+	
+
+	<div class="main">
+		<div class="name-container"><h1>Egor Barkanov</h1></div>
+	</div>
+	
+    
+
+
+	<!-- bootstrap JS (put after jQuery, needs jQuery) -->
+	<script src="JS/bootstrap/bootstrap.min.js"></script>
+
+	<!-- WOW JS Reveal Animations When You Scroll-->
+	<script src="JS/wow/wow.min.js"></script>
+
+	<!-- magnific-popup JS -->
+	<script src="JS/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+	<!-- owl carousel JS-->
+	<script src="JS/owl-carousel/owl.carousel.min.js"></script>
+	
+	<!-- easing -->
+	<script src="JS/easing/jquery.easing.1.3.js"></script>
+
+	<!-- custom JS -->
+	<!--googpractice to put right before body is closed -->
+	<script src="JS/custom.js"></script>
+	<script>
+		$(document).ready(function() {
+			//Preloader
+			$(window).on("load", function() {
+				preloaderFadeOutTime = 500;
+				function hidePreloader() {
+					var preloader = $('.spinner-wrapper');
+					preloader.fadeOut(preloaderFadeOutTime);
+				}
+				hidePreloader();
+			});
+		});
+</script>
+</body>
+
+</html>
