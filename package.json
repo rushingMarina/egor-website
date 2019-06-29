@@ -1,0 +1,22 @@
+{
+  "name": "egor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rushingMarina/egor-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rushingMarina/egor-website/issues"
+  },
+  "homepage": "https://github.com/rushingMarina/egor-website#readme",
+  "dependencies": {
+    "vimeo": "^2.1.1"
+  }
+}
